@@ -1,15 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93a50fda-3aee-45a4-bbda-87e24dea02a1" name="Changes" comment="">
+    <list default="true" id="93a50fda-3aee-45a4-bbda-87e24dea02a1" name="Changes" comment="ewww">
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/day2/Day2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/day2/day2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kotlin/day1/day1.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day1/day1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/day1/day1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adventofcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/adventofcode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/day1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day1/day1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/kotlin/day1/day1.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -29,13 +43,18 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/kotlin/day1" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day1.Main" />
+      <option name="MAIN_CLASS_NAME" value="java.day1.Main" />
       <module name="adventofcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day1.*" />
+          <option name="PATTERN" value="java.day1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -57,11 +76,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670079552582</updated>
-      <workItem from="1670079553730" duration="3133000" />
+      <workItem from="1670079553730" duration="4787000" />
     </task>
+    <task id="LOCAL-00001" summary="ewww">
+      <created>1670082758616</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670082758616</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ewww" />
+    <option name="LAST_COMMIT_MESSAGE" value="ewww" />
   </component>
 </project>

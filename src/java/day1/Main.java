@@ -1,4 +1,4 @@
-package day1;
+package java.day1;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -8,14 +8,15 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws FileNotFoundException {
-        System.out.println(getMaxFromFile(new Scanner(new File("src/day1/day1.txt"))));
-        ArrayList<Integer> list = get3TopValuesFromFile(new Scanner(new File("src/day1/day1.txt")));
-        Collections.sort(list);
-        System.out.println(list.get(list.size() - 1) + list.get(list.size() - 2) + list.get(list.size() - 3));
+        System.out.println(getMaxFromFile(new Scanner(new File("src/java.day1/java.day1.txt"))));
+        System.out.println(get3TopValuesFromFile(new Scanner(new File("src/java.day1/java.day1.txt"))));
+
     }
+
+
     public static int getMaxFromFile(Scanner file) {
         int max = 0;
-        try (file) {
+        try (file; file) {
             int blockTotal = 0;
             while (file.hasNextLine()) {
                 String line = file.nextLine();
@@ -33,9 +34,9 @@ public class Main {
         return max;
     }
 
-    public static ArrayList<Integer> get3TopValuesFromFile(Scanner scanner) {
+    public static int get3TopValuesFromFile(Scanner scanner) {
         ArrayList<Integer> list = new ArrayList<>();
-        try (scanner) {
+        try (scanner; scanner) {
             int blockTotal = 0;
             while (scanner.hasNextLine()) {
                 String line = scanner.nextLine();
@@ -49,6 +50,7 @@ public class Main {
             }
         } catch (Exception ignored) {
         }
-        return list;
+        Collections.sort(list);
+        return list.get(list.size() - 1) + list.get(list.size() - 2) + list.get(list.size() - 3);
     }
 }
